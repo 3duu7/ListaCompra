@@ -1,0 +1,109 @@
+
+
+@media only screen and (min-width: 768px) {
+  body{
+    margin:0;
+    font-family: "Trebuchet MS";
+  }
+  .icono{
+  	height: 25%;
+  	width: 25%;
+  }
+  .nombre{
+  	font-size: 85px;
+  }
+  .texto {
+    border-radius: 10vw;
+	  font-size:2vw;
+    border:0;
+    width:4px;
+    height:5px;
+  }
+  .resultado{
+    border-radius: 10vw;
+	  font-size:2vw;
+    border:1;
+    width:4px;
+    height:3px;
+  }
+  .listo{
+    border-radius: 10vw;
+    font-size:2vw;
+    border:0;
+    width:44px;
+    height:35px;
+    margin:-1vw;
+  }
+    .compras{
+    height:36vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+}
+h1, h2{
+	text-align: center;
+	line-height:5vh;
+}
+header{
+	padding:20px;
+}
+nav {
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+nav div {
+	width:25%;
+	float:left;
+	font-size:40px;
+	padding:10px 0;
+}
+
+nav div a img{
+	position:fixed;
+	bottom:0;
+	width: 85px;	
+}
+
+main{
+	text-align: center;
+	line-height:15vh;
+}
+.listo{
+    height:5vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.checkbox{	
+    text-align: center;
+    font-size:5vw;
+}
+#nueva{
+	  font-size:5vw;
+    margin: 5vh 15vw;
+    border-radius: 10vw;
+    border: 0;
+    font-weight: bolder;
+    font-size: 5vw;
+    text-align: center;		
+}
+input {
+	border-radius: 10vw;
+	font-size:5vw;
+  border:0;
+  width:50px;
+  height:25px;
+   
+}
+.texto{
+	width:160px;
+	height:25px;
+   
+}
+
+.compras{
+    height:46vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
